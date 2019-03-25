@@ -1,0 +1,22 @@
+{
+    "extends": "../node_modules/ts-config/tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": "../node_modules",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "target": "es6",
+        "lib": [
+            "dom",
+            "es6"
+        ],
+        "types": [
+            "cypress"
+        ],
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
